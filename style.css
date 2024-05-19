@@ -1,0 +1,157 @@
+body{
+    background:linear-gradient(#9a08dd 0%, #dd4c4f 40%,#7420d3 100%);
+    margin:0px;
+}
+nav {
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem
+}
+
+.untuk {
+    text-decoration: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    font-family:  sans-serif;
+    padding: 10px;
+    
+}
+nav div a {
+    text-decoration: none;
+    
+}
+nav div a:hover {
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid red;
+}
+.bulat {
+    border-radius: 50%;
+}
+.profile {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.profile-about {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.profile-about p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 500px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.profile h2 {
+    color:white;
+    font-size:5rem;
+    width:500px;
+}
+.profile h3{
+    color:white;
+    font-size:3rem;
+    width:500px;
+}
+.profile p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 500px;
+    color:white;
+    
+}
+
+#pricing {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 22%);
+    background: white;
+    text-align: justify;
+    text-justify: inter-word;
+    gap:1.8rem;
+
+}
+#sip {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    background: #F3F4F5;
+    text-align: justify;
+    text-justify: inter-word;
+    gap:1.8rem;
+
+}
+#pricingi {
+   background: white;
+}
+.pricing-container {
+    background-color: white;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.about-container {
+    background-color: #F3F4F5;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.text-center {
+    text-align: center;
+    justify-content: center;
+    background: white;
+}
+.about-center {
+    text-align: center;
+    justify-content: center;
+    background: #f3f4f5;
+}
+.stastic-container{
+   background: red;
+
+}
+.stastic-center {
+    text-align: center;
+    justify-content: center;
+    background: red;
+}
+.stastic{
+    display:flex;
+    justify-content: space-around;
+}
+.contact-me{
+    display: grid;
+    justify-content: center;
+    background: white;
+}
+.contact-mee{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons a{
+    display:grid;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+.container{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.Contact-container{
+    background: #00ff7f;
+}
